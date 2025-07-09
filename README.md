@@ -3,7 +3,7 @@
 
 Projeto web que exibe a cotação atual do **Dólar**, **Euro** e **Bitcoin**, além de um **gráfico com o histórico dos últimos 7 dias**, tudo de forma simples, bonita e responsiva.
 
-![Dashboard Preview](./cotacao-preview.png)
+![Dashboard Preview](./dashboard preview1.png)
 
 ---
 
