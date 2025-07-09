@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💱 Cotação de Moedas</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>💱 Cotação Atual</h1>
+
+    <div class="cotacoes">
+      <p>💵 <strong>Dólar:</strong> <span id="dolar">R$ --</span></p>
+      <p>💶 <strong>Euro:</strong> <span id="euro">R$ --</span></p>
+      <p>₿ <strong>Bitcoin:</strong> <span id="bitcoin">R$ --</span></p>
+    </div>
+
+    <h2>📈 Histórico (últimos 7 dias)</h2>
+
+    <select id="moedaSelect">
+      <option value="USD-BRL">Dólar</option>
+      <option value="EUR-BRL">Euro</option>
+      <option value="BTC-BRL">Bitcoin</option>
+    </select>
+
+    <canvas id="grafico" width="600" height="300"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
